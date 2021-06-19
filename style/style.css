@@ -90,12 +90,14 @@ header .title {
   margin-top: 30px;
   text-align: center;
 }
+
 .scores,
 .details {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
+
 #result {
   width: 180px;
   padding: 10px 0;
@@ -104,6 +106,7 @@ header .title {
   letter-spacing: 0.5px;
   font-weight: bold;
 }
+
 #user_choice,
 #computer_choice {
   font-weight: 400;
