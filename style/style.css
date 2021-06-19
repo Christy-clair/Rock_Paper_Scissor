@@ -4,7 +4,7 @@
   --violet-color: #5f0a87;
   --purple-color: #a4508b;
   --white-color: #fff;
-  --lav-color: #5b0683;
+  --lav-color: #de3df3;
 }
 
 *,
@@ -77,11 +77,13 @@ header .title {
   border-radius: 50%;
   outline: none;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .hands button:hover:active{
-    transform: scale(1.1);
+    transform: scale(1.12);
+    background-color: var(--purple-color);
+    color: var(--violet-color);
 }
 
 .details {
@@ -100,6 +102,7 @@ header .title {
   margin: 30px auto;
   font-weight: 600;
   letter-spacing: 0.5px;
+  font-weight: bold;
 }
 #user_choice,
 #computer_choice {
